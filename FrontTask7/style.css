@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Marcellus', serif;
+    word-spacing: 3px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.herald {
+    background-image: url(https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/new-new-h1-bacground-img-3.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+}
+
+.contain {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.text {}
+
+.text h1 {
+    font-size: 45px;
+    font-weight: 300;
+}
+
+.text p {
+    font-size: 20px;
+    margin: top 20px;
+    font-weight: 200;
+}
+
+.text img {
+    margin: 13px 0 22px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 65px;
+}
+
+.box {
+    width: 32%;
+    /* vertical-align: bottom; */
+}
+
+.box img {
+    width: 100%;
+}
+
+.box p {
+    text-align: left;
+    margin-top: 15px;
+
+}
+
+.head {
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.txt {
+    color: #ADA59E;
+}
+
+.more {
+    text-align: left;
+    margin-top: 17px;
+}
+
+.more a {
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.coffeeShop {
+    background-image: url(https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/h1-bacground-img-1.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    height: 100vh;
+}
+
+.card {
+    width: 24%;
+    position: relative;
+}
+
+.card img {
+    width: 100%;
+}
+
+.head2 {
+    font-weight: 600;
+    font-size: 22px;
+    font-weight: 300;
+    margin: 20px 0 13px;
+}
+
+.txt2 {
+    color: #ADA59E;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+/* .hov:hover .overline{
+position: absolute;
+background-color: #e8dfd8;
+width: 100%;
+height: 100%;
+left: 0;
+top: 0;
+} */
+.image {
+    position: relative;
+}
+
+
+.image:hover .overlay {
+    position: absolute;
+    background-color: #e8dfd8;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+.overlay {
+    transition: 0.5s;
+    opacity: 0.7;
+    /* position: absolute; */
+    width: 100%;
+    height: 100%;
+   
+
+}
+
+.overlay a {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    /* width: 0; */
+    /* height: 0; */
+    opacity: 0;
+}
+
+.image:hover .overlay a {
+    color: #fff;
+    border: 1px solid;
+    padding: 12px 24px;
+    width: 200px;
+    font-weight: bold;
+    background-color: #924c0b;
+    opacity: 1;
+}
+
